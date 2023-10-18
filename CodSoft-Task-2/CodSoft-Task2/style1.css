@@ -1,0 +1,137 @@
+body,
+h1,
+h2,
+p,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.nav-links a {
+  color: wheat;
+  margin-right: 15px;
+  text-decoration: none;
+}
+.nav-links a:hover {
+  color: red;
+}
+/* Hero section styles */
+.hero {
+  background-color: gray;
+  background-image: url("https://www.aels.edu/images/internship-program-aels.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 10rem 0;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hero p {
+  font-family: cursive;
+}
+
+.hero h1 {
+  font-family: cursive;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: cursive;
+  transition: background-color 0.3s ease;
+  margin-top: 5px;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}
+
+/* Features section styles */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 5rem 0;
+  background-color: lightgray;
+}
+.features h1 {
+  margin-top: 0px;
+  color: blue;
+}
+
+.feature {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+/* Testimonials section styles */
+.testimonials {
+  background-color: gray;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+}
